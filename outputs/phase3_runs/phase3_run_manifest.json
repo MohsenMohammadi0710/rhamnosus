@@ -1,0 +1,28 @@
+{
+  "Source dataset SHA256": "d202954412cf9ea0e9b81522b5200ebcafa0452c2efbec6903fa2ad1a7f8e6ed",
+  "Decision workbook": "outputs\\decision_workbooks\\researcher_decision_workbook_d202954412_v1_1_0.xlsx",
+  "Decision workbook SHA256": "b2804d5ccf88237950ac2ae67aa75a5218bbb8391459b98f3d981a0818a1b0b7",
+  "Phase 2 run directory": "outputs\\phase2_runs\\d202954412_20261126_032911",
+  "Phase 2 manifest SHA256": "d349772d73865b0d168ec6ff7281191851dd968d44bfc27c9d239fdcc317a3a0",
+  "Phase 3 script version": "1.1.0",
+  "Analysis date UTC": "2026-11-26T00:09:19+00:00",
+  "Models optimized": 3,
+  "Alternatives": 6,
+  "Population size": 80,
+  "Generations": 150,
+  "Random seed": 2026,
+  "Objective 1": "Maximize predicted Cell Density Log CFU/mL.",
+  "Objective 2": "Minimize distance to nearest observed predictor profile after range scaling.",
+  "Support threshold": "95th percentile of observed leave-one-profile-out nearest-neighbor distances.",
+  "run_directory": "outputs\\phase3_runs\\d202954412_20261126_033834",
+  "artifacts": {
+    "workbook": "researcher_optimization_results.xlsx",
+    "alternatives": "pareto_alternatives.csv",
+    "constraints": "predictor_constraints_and_ranges.csv",
+    "reliability": "model_reliability_used.csv",
+    "figure": "pareto_tradeoffs.png",
+    "candidate_settings_figure": "candidate_settings_heatmap.png",
+    "model_reliability_figure": "optimization_model_reliability.png",
+    "visual_report": "phase3_visual_report.html"
+  }
+}
