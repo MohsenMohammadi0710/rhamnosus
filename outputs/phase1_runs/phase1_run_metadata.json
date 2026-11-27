@@ -1,0 +1,16 @@
+{
+  "Source dataset file": "rhamnosus.xlsx",
+  "Source dataset SHA256": "d202954412cf9ea0e9b81522b5200ebcafa0452c2efbec6903fa2ad1a7f8e6ed",
+  "Analysis date UTC": "2026-11-25T23:44:33+00:00",
+  "Script version": "1.1.0",
+  "Dataset rows": 148,
+  "Study count": 6,
+  "Predictor count": 24,
+  "Response column": "Cell Density Log CFU/mL",
+  "Response bases present": "log10 CFU/g; log10 CFU/mL",
+  "Notes": "Missing values preserved; no imputation or outlier removal; pooled associations are descriptive.",
+  "Decision workbook": "outputs\\decision_workbooks\\researcher_decision_workbook_d202954412_v1_1_0.xlsx",
+  "Decision workbook SHA256": "e38840e7f31ee5d3547d6ba5eb598be2afb47776d1c01785e858f566f641e7a2",
+  "Phase 1 output directory": "outputs\\phase1_runs\\d202954412_20261126_031436",
+  "Visual report": "outputs\\phase1_runs\\d202954412_20261126_031436\\phase1_visual_report.html"
+}
