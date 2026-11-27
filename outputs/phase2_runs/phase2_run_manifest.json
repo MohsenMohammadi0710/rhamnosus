@@ -1,0 +1,44 @@
+{
+  "script_version": "1.1.0",
+  "source_dataset_file": "rhamnosus.xlsx",
+  "source_dataset_sha256": "d202954412cf9ea0e9b81522b5200ebcafa0452c2efbec6903fa2ad1a7f8e6ed",
+  "decision_workbook": "outputs\\decision_workbooks\\researcher_decision_workbook_d202954412_v1_1_0.xlsx",
+  "decision_workbook_sha256": "b2804d5ccf88237950ac2ae67aa75a5218bbb8391459b98f3d981a0818a1b0b7",
+  "run_directory": "outputs\\phase2_runs\\d202954412_20261126_032911",
+  "analysis_date_utc": "2026-11-26T00:05:42+00:00",
+  "response_basis_filter": [
+    "log10 CFU/mL"
+  ],
+  "included_provisional_responses": false,
+  "excluded_incompatible_basis_rows": 17,
+  "excluded_provisional_rows": 27,
+  "study_count_after_filters": 4,
+  "minimum_studies_for_optimization_screen": 3,
+  "conditional_predictors_without_machine_readable_bounds": [
+    "Sodium acetate g/L",
+    "Diammonium hydrogen citrate g/L",
+    "K2HPO4 g/L",
+    "NaCl g/L",
+    "Corn steep liquor g/L",
+    "Corn steep liquor mL/L",
+    "Tween 80 mL/L",
+    "Vitamin solution mL/L",
+    "Tryptone g/L",
+    "Peptone g/L"
+  ],
+  "optimization_eligibility_rule": "At least 3 held-out studies and lower macro-average study LOSO RMSE than the training-mean baseline; this is a screening rule, not experimental validation.",
+  "artifacts": {
+    "summary_workbook": "phase2_model_comparison.xlsx",
+    "metrics": "model_comparison_loso.csv",
+    "predictions": "loso_predictions.csv",
+    "registry": "model_registry.csv",
+    "models": "fitted_models.joblib",
+    "strategy_datasets": "feature_strategy_datasets/",
+    "visual_report": "phase2_visual_report.html",
+    "figures": [
+      "loso_model_comparison.png",
+      "best_scenario_observed_vs_predicted.png",
+      "best_scenario_error_by_study.png"
+    ]
+  }
+}
